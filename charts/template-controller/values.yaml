@@ -38,6 +38,11 @@ securityContext:
   seccompProfile:
     type: RuntimeDefault
 
+# Additional environment variables
+env: []
+  # - name: HTTPS_PROXY
+  #  value: https://proxy.example.org
+
 service:
   type: ClusterIP
   prometheus:
