@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  flux-kluctl-controller:
+  - apiVersion: v2
+    appVersion: v0.15.0
+    created: "2023-04-27T11:49:21.885196153Z"
+    description: A Helm chart for the flux-kluctl-controller
+    digest: 304984e5b63605d6ae5baf29ca17ff60cbf63109bd9acb1d94af174df72ec2b0
+    maintainers:
+    - name: kluctl
+      url: https://github.com/kluctl/charts
+    - email: aljoscha.poertner@posteo.de
+      name: AljoschaP
+    - email: ablock84@gmail.com
+      name: codablock
+    name: flux-kluctl-controller
+    type: application
+    urls:
+    - https://github.com/netthier/kluctl-charts/releases/download/flux-kluctl-controller-0.2.9/flux-kluctl-controller-0.2.9.tgz
+    version: 0.2.9
+  template-controller:
+  - apiVersion: v2
+    appVersion: v0.6.0
+    created: "2023-04-27T11:49:22.048191307Z"
+    description: A Helm chart for the template-controller
+    digest: 72d11f28cf2ce9b60a5c46fe19a70498cb4ffef2aefdf236eee896357e776041
+    maintainers:
+    - name: kluctl
+      url: https://github.com/kluctl/charts
+    - email: aljoscha.poertner@posteo.de
+      name: AljoschaP
+    - email: ablock84@gmail.com
+      name: codablock
+    name: template-controller
+    type: application
+    urls:
+    - https://github.com/netthier/kluctl-charts/releases/download/template-controller-0.2.1/template-controller-0.2.1.tgz
+    version: 0.2.1
+generated: "2023-04-27T11:49:21.578996816Z"
